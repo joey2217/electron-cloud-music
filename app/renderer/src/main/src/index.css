@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+/* ./src/index.css */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+.drag{
+  -webkit-app-region: drag;
+}
+.no-drag{
+  -webkit-app-region: no-drag;
+}
